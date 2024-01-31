@@ -12,8 +12,8 @@ static const int showsystray        = 1;        /* 0 means no systray */
 static const int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "CaskaydiaCove Nerd Font:size=10", "JoyPixels:pixelsize=14:antialias=true:autohint=true"};
-static const char dmenufont[]       = "CaskaydiaCove Nerd Font:size=10";
+static const char *fonts[]          = { "DejaVu Sans Mono:size=11", "JoyPixels:pixelsize=14:antialias=true:autohint=true"};
+static const char dmenufont[]       = "DejaVu Sans Mono:size=11";
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
 static char normfgcolor[]           = "#bbbbbb";
@@ -40,6 +40,7 @@ static const Rule rules[] = {
 	{ "Lutris",             NULL,     NULL,           0,         1,          0,           0,        -1 },
 	{ "Pavucontrol",        NULL,     NULL,           0,         1,          0,           0,        -1 },
 	{ "Blueman-manager",    NULL,     NULL,           0,         1,          0,           0,        -1 },
+	{ "valent",             NULL,     NULL,           0,         1,          0,           0,        -1 },
 	{ "firefox",   		      NULL,     NULL,           0,         0,          0,          -1,        -1 },
 	{ "St",                 NULL,     NULL,           0,         0,          1,           0,        -1 },
 	{ NULL,                 NULL,     "Event Tester", 0,         0,          0,           1,        -1 }, /* xev */
